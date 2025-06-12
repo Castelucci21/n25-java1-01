@@ -1,0 +1,15 @@
+package br.com.senaisp.br.classes;
+
+public class ConversaoGal2lit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double galao = 10;
+		double litros = galao * 3.785;
+
+		// Fazendo a conversão e mostrando
+		System.out.println(galao + " Galões é igual a " + litros + " Litros");
+
+	}
+
+}
