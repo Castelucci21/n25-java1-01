@@ -9,8 +9,15 @@ public class Estudante {
 	//constructor
 	public Estudante() {
 		setNome("Sem nome");
-		setRa(0);
+		setra(0);
 		nota = 0.0;
+		ehFumante = false;
+	}
+	
+	public Estudante(int ra,String nome) {
+		setra(ra);
+		setNome(nome);
+		nota = 0;
 		ehFumante = false;
 	}
 	public String getNome() {
@@ -19,12 +26,15 @@ public class Estudante {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	private int getRa() {
+	
+	public int getra() {
 		return ra;
 	}
-	private void setRa(int ra) {
+	
+	public void setra(int ra) {
 		this.ra = ra;
 	}
+	
 	public double getNota() {
 		return nota;
 	}
@@ -36,5 +46,13 @@ public class Estudante {
 	}
 	public void setEhFumante(boolean ehFumante) {
 		this.ehFumante = ehFumante;
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Nome: " + getNome() + "\n" 
+				+ "RA: " + getra() + "\n" 
+				+ "Nota: "+ getNota() + "\n" 
+				+"Fumante: " + isEhFumante() + "\n";
 	}
 }
