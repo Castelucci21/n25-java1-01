@@ -1,0 +1,19 @@
+package br.com.senaisp.com.Aula04;
+
+public class Exemplo01 {
+
+	public static void main(String[] args) {
+		int vlr01 = 10;
+		int vlr02 = vlr01;
+		System.out.println("Vlr01: "+ vlr01);
+		System.out.println("Vlr02: "+ vlr02);
+		//string
+		String str01 = "Abelha";
+		String str02 = new String ("Abelha");
+		System.out.println("str01: "+ str01);
+		System.out.println("str02: "+ str02);
+		System.out.println(str01 == str02);
+		System.out.println(str01.equals(str02));
+	}
+
+}

@@ -24,7 +24,6 @@ public class Exemplo01 {
 	int vl = 10;
 	int vl2 = vl++ + 5;//vl = vl=1 Caso fosse ++vl nesse caso a operção é prioritaria, ou seja a primeira operação realizada 
 	System.out.println(vl + " "+ vl2); // Resultado 11 e 15, pois o incremento é a última operação que o código realiza
-	
 	}
 }
 	

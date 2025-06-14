@@ -1,0 +1,11 @@
+package br.com.senaisp.com.Aula03;
+
+public class Exemplo02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(1 / 2); //Divisão de números inteiros dá número inteiro
+									//A fração é desprezada!
+	}
+
+}

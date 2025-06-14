@@ -1,0 +1,13 @@
+package br.com.senaisp.com.Aula04;
+
+public class Exemplo02 {
+
+	public static void main(String[] args) {
+		String str01 = "Roberto da Silva Sauro";
+		//Verificar se há dino no texto
+		
+		System.out.println(str01.contains("ssuro"));
+
+	}
+
+}
