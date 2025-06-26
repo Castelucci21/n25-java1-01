@@ -1,0 +1,5 @@
+package br.com.senaisp.com.Aula07;
+
+public class Quadrado extends Retangulo {
+
+}

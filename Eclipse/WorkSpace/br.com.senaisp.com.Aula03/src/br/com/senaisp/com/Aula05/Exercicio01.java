@@ -20,7 +20,7 @@ public class Exercicio01 {
 			linha = sc.nextLine(); 
 			sca = new Scanner (linha);
 			sca.useDelimiter(";");
-			
+			sc.close();
 			
 			
 		}
